@@ -1,0 +1,18 @@
+- MiPropuesta.zip
+  - extension
+    - manifest.json
+    - background.js
+    - content.js
+    - index.html
+    - images
+      - imagen1.jpg
+      - imagen2.jpg
+  - propuesta
+    - pagina1.html
+    - pagina2.html
+    - pagina3.html
+    - images
+      - imagen1.jpg
+      - imagen2.jpg
+  - README.txt
+  - musica.mp3

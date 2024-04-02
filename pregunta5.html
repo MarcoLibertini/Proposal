@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pregunta Final</h1>
+        <div class="question-container">
+            <p>Solo para estar segurxs. Se entendio el fin de este Quiz? Aceptas salir con Marco? Esto no significa nada extraordinario o diferente a lo que se esta experimentando por el momento, solo es una antigua y cursi formalidad, con un fin romantico sin peso nominal, pero con mucho valor y contenido sentimental. Ya que Marco es un manija y le gustas demasiado.</p>
+            <div class="options">
+                <input type="radio" name="answer" value="Si"> Si<br>
+                <input type="radio" name="answer" value="No"> No<br>
+                <input type="radio" name="answer" value="Es confuso"> Es confuso<br>
+            </div>
+            <button onclick="checkAnswer('Si')">Responder</button>
+            <div class="result" id="result"></div>
+            <button onclick="window.location.href = 'final.html';">Siguiente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

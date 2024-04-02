@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pregunta 4</h1>
+        <div class="question-container">
+            <p>Ante ultima pregunta y la mas importante.... Con respecto al chico que te gusta: La proxima vez que te pregunten quien es ese Petiso guapo y chulo? Que te gustaria contestar?</p>
+            <div class="options">
+                <input type="radio" name="answer" value="Si lo he visto no me acuerdo"> Si lo he visto no me acuerdo<br>
+                <input type="radio" name="answer" value="Solo es un sexToy"> Solo es un sexToy<br>
+                <input type="radio" name="answer" value="Mi novio"> Mi novio<br>
+            </div>
+            <button onclick="checkAnswer('Mi novio')">Responder</button>
+            <div class="result" id="result"></div>
+            <button onclick="window.location.href = 'pregunta5.html';">Siguiente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

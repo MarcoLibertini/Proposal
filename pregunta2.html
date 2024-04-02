@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pregunta 2</h1>
+        <div class="question-container">
+            <p>¿Como sigue la siguiente cancion: As meninas preparam motores
+                As roupas llenas de cachaça... ?</p>
+            <div class="options">
+                <input type="radio" name="answer" value="Budu Budu pra pra br br"> Budu Budu pra pra br br<br>
+                <input type="radio" name="answer" value="Mística y sensualidad en el aire"> Mística y sensualidad en el aire<br>
+                <input type="radio" name="answer" value="many think its brujeria,
+                how he comes and disappears,"> many think its brujeria,
+                how he comes and disappears,<br>
+            </div>
+            <button onclick="checkAnswer('Mística y sensualidad en el aire')">Responder</button>
+            <div class="result" id="result"></div>
+            <button onclick="window.location.href = 'pregunta3.html';">Siguiente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
