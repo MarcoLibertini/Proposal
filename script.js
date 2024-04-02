@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-const siButton = document.querySelector('button');
+const siButton = document.querySelector('#botonSi');
 siButton.addEventListener('click', () => {
     const popup = window.open('', 'popup', 'width=800,height=600'); // Ajusta el tamaño de la ventana emergente según tus necesidades
     popup.document.write('<div style="font-family: Arial, sans-serif; text-align: center;">');
